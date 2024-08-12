@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/ecommerce")
+  .connect("mongodb+srv://aryalakshmisece:Aryasece2910@cluster0.k18j5n2.mongodb.net/")
   .then(() => {
     console.log("Connected to MongoDB");
   })
